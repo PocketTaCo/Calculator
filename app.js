@@ -8,12 +8,11 @@ function calculator(x, y, z) {
 		output = y*z
 	}else if(x=="/"){
 		output = y/z
+	}else {
+			output = "why are you adding the wrong number my guy????";
 	}
 }
 
-calculator("+", 45, 100);
-calculator("-", 45, 100);
-calculator("*", 45, 100);
-calculator("/", 45, 100);
+calculator("*", 1473, 3346);
 
 console.log(output);
